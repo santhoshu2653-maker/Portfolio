@@ -1,245 +1,295 @@
 // ============================================================
-// portfolioData.js — Centralized configuration for Md Yusuf's Portfolio
+// portfolioData.js — Centralized configuration for Santhosh U's Portfolio
 // All external links, personal info, and content in one place.
 // Update this file to change any content across the entire site.
 // ============================================================
 
 export const personalInfo = {
-  name: "Md Yusuf",
-  firstName: "Md Yusuf",
-  brandName: "Md Yusuf",
-  title: "Full Stack & Java Developer",
-  location: "Bhopal, India",
-  phone: "+91 99396-08743",
+  name: "Santhosh U",
+  firstName: "Santhosh",
+  brandName: "Santhosh U",
+  title: "Software Developer",
+  location: "Chennai, India",
+  address: "Puzhal – Chennai 600066",
+  phone: "+91 98 4088 9432",
   emails: {
-    primary: "mdyusufcse096@iesuniversity.ac.in",
-    secondary: "yusuf.rgpv@gmail.com",
+    primary: "Santhosh.u2653@email.com",
+    secondary: "",
   },
   summary:
-    "Aspiring software engineer and motivated B.Tech Computer Science student with solid skills in Java, Spring Boot, React, and Python. Passionate about building scalable full-stack applications with clean architecture and modern tech stacks.",
-  resumeUrl: "/Md_Yusuf_Resume_2026.pdf",
+    "Motivated and detail-oriented Software Developer & B.Sc. Computer Science graduate (Agurchand Manmull Jain College, Chennai) Skilled in full-stack web and backend engineering across React, Next.js, TypeScript, NestJS, GSAP, Java, J2EE, Spring Boot, JDBC, SQL/MySQL, and Flutter.",
+  resumeUrl: "/Santhosh_U_Resume.pdf",
 };
 
 export const socialLinks = {
-  github: "https://github.com/mdyusuf0",
-  linkedin: "https://linkedin.com/in/mdyusuf0",
-  instagram: "https://instagram.com/heyyusuffff",
+  github: "https://github.com/santhosh-u",
+  linkedin: "https://www.linkedin.com/in/santhosh-u-403882313?u",
+  instagram: "https://www.instagram.com/santhosh_u__2653?igsi=aWl4cTcwZ2pvam5p",
 };
 
 export const heroContent = {
-  greeting: "Hi, I'm Md Yusuf",
-  titleHighlight: "Full Stack & Java Developer",
+  greeting: "Hi, I'm Santhosh   ",
+  titleHighlight: "Software Developer",
   subtitle:
-    "I build fast, scalable applications using Java, Spring Boot, MERN Stack, and Python.",
+    "I build fast, scalable applications using React, Next.js, NestJS, TypeScript, Java, and Flutter.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
-    href: "mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
+    href: "mailto:Santhosh.u2653@email.com?subject=Hiring Inquiry – Portfolio&body=Hello Santhosh,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
   },
-  ctaResume: { text: "Download Resume", href: "/Md_Yusuf_Resume_2026.pdf" },
+  ctaResume: { text: "Download Resume", href: "/Santhosh_U_Resume.pdf" },
 };
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Md Yusuf</span>, an aspiring software engineer based in Bhopal, India, dedicated to crafting clean, functional, and highly scalable full-stack applications.`,
-  techStack: ["Java", "Spring Boot", "MERN Stack"],
+  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Santhosh</span>, a Software Developer based in Chennai, India. I specialize in engineering clean, scalable full-stack web and cross-platform applications using modern frameworks like React, Next.js, NestJS, Java, Spring Boot, and Flutter.`,
+  techStack: ["React", "Next.js", "Java", "NestJS", "Flutter"],
 };
 
 export const skillsContent = {
   badge: "My Process",
   heading: "Here's how I turn ideas into real-world applications",
   description:
-    "I follow a structured, creative, and highly technical approach to turn ideas into robust full-stack applications.",
+    "I follow a structured, modern, and performance-first approach to develop robust software and scalable full-stack platforms.",
   cards: [
     {
       number: "01",
-      title: "Research",
-      text: "I start by understanding goals, user requirements, and technical constraints to lay a rock-solid foundation for the project.",
+      title: "Research & Analysis",
+      text: "I analyze business requirements, user needs, and architectural tradeoffs to lay a rock-solid foundation for every software project.",
     },
     {
       number: "02",
-      title: "Design",
-      text: "Crafting clean architecture, intuitive interfaces, and pixel-perfect wireframes that guarantee an engaging and accessible user experience.",
+      title: "Design & Architecture",
+      text: "Crafting clean module architecture, intuitive interfaces, and responsive layouts that guarantee high performance and engaging UX.",
     },
     {
       number: "03",
-      title: "Develop",
-      text: "Building scalable backends and responsive frontends using modern tech stacks and best practices.",
+      title: "Develop & Integrate",
+      text: "Building modular backends and responsive frontends using React, Next.js, NestJS, Java, and database systems with industry best practices.",
     },
     {
       number: "04",
-      title: "Deploy",
-      text: "Rigorous testing, performance optimization, and seamless deployment to cloud infrastructure, followed by ongoing support.",
+      title: "Test & Deploy",
+      text: "Rigorous testing, validation, and seamless deployment with continuous performance optimization and ongoing refinement.",
     },
   ],
   endText: "Ready to ship!",
 };
 
-// Brand New Technical Skills Data
+// Technical Skills Data
 export const technicalSkills = {
   categories: [
     {
-      title: "Programming Languages",
+      title: "Frontend & Modern Web",
       skills: [
-        { name: "Java", level: 90 },
-        { name: "C++", level: 85 },
-        { name: "Python", level: 75 }
-      ]
+        { name: "React", level: 92 },
+        { name: "Next.js", level: 90 },
+        { name: "TypeScript", level: 88 },
+        { name: "JavaScript (ES6+)", level: 92 },
+        { name: "HTML5 & CSS3", level: 95 },
+        { name: "GSAP & Motion", level: 85 },
+        { name: "Tailwind CSS", level: 92 },
+      ],
     },
     {
-      title: "Full Stack",
+      title: "Backend & Enterprise Java",
       skills: [
-        { name: "MERN Stack", level: 90 },
-        { name: "HTML", level: 95 },
-        { name: "CSS", level: 90 },
-        { name: "JavaScript", level: 92 }
-      ]
+        { name: "Java", level: 92 },
+        { name: "J2EE & Servlets / JSP", level: 88 },
+        { name: "JDBC", level: 90 },
+        { name: "NestJS", level: 88 },
+        { name: "Spring Boot", level: 82 },
+        { name: "REST APIs", level: 90 },
+      ],
     },
     {
-      title: "Backend",
+      title: "Mobile & Cross-Platform",
       skills: [
-        { name: "Spring Boot", level: 88 },
-        { name: "FastAPI", level: 75 },
-        { name: "REST APIs", level: 90 }
-      ]
+        { name: "Flutter", level: 85 },
+        { name: "Dart", level: 82 },
+        { name: "Responsive UI", level: 92 },
+        { name: "State Management", level: 85 },
+      ],
     },
     {
-      title: "Databases",
+      title: "Databases & Tools",
       skills: [
-        { name: "MongoDB", level: 88 },
-        { name: "MySQL", level: 85 },
-        { name: "Firebase", level: 80 }
-      ]
-    },
-    {
-      title: "Tools & Automation",
-      skills: [
+        { name: "MySQL / SQL", level: 90 },
         { name: "Git & GitHub", level: 90 },
         { name: "VS Code", level: 95 },
         { name: "Postman", level: 88 },
-        { name: "n8n", level: 82 },
-        { name: "MongoDB Compass", level: 85 },
-        { name: "Antigravity", level: 80 },
-        { name: "Codex", level: 75 }
-      ]
+        { name: "Node.js", level: 86 },
+      ],
     },
     {
       title: "Computer Science Concepts",
       skills: [
-        { name: "Data Structures", level: 88 },
-        { name: "Algorithms", level: 85 },
-        { name: "DBMS", level: 86 },
-        { name: "OOP", level: 90 },
-        { name: "Software Engineering", level: 84 }
-      ]
-    }
-  ]
+        { name: "Object-Oriented Programming (OOP)", level: 95 },
+        { name: "Data Structures & Algorithms", level: 86 },
+        { name: "DBMS & Relational Design", level: 88 },
+        { name: "File I/O & Exception Handling", level: 90 },
+        { name: "Software Engineering (SDLC)", level: 86 },
+      ],
+    },
+  ],
 };
 
-// Brand New Content Creation Data
+// Content Creation / Technical Innovation Data
 export const contentCreation = {
-  badge: "Cinematic Content",
-  heading: "Creative Direction & Cinematic Edits",
-  description: "Beyond coding, I craft visual stories with premium editing, color grading, and creative pacing.",
+  badge: "Technical Innovation",
+  heading: "Technical Development & Creative Direction",
+  description:
+    "Beyond full-stack coding, I craft interactive web experiences, explore modern UI animations with GSAP, and build scalable systems.",
   categories: [
     {
-      title: "Cinematic Reels",
-      description: "Visual stories crafted with cinematic lighting, premium color grading, and high-impact sound design.",
-      stats: "50+ Reels Created",
-      icon: "🎥"
+      title: "Web Applications",
+      description:
+        "Building responsive full-stack applications with React, Next.js, TypeScript, and NestJS.",
+      stats: "Production Apps",
+      icon: "💻",
     },
     {
-      title: "Travel Videos",
-      description: "Immersive travel vlogs and aesthetic edits capturing cultures, landscapes, and visual rhythms.",
-      stats: "15+ Countries/Cities",
-      icon: "✈️"
+      title: "Interactive UI & GSAP",
+      description:
+        "Crafting smooth motion designs, micro-interactions, and fluid web animations with GSAP and Framer Motion.",
+      stats: "Modern Motion",
+      icon: "⚡",
     },
     {
-      title: "Educational Reels",
-      description: "Fast-paced tech tutorials and educational content designed to simplify coding and software engineering.",
-      stats: "100k+ Views",
-      icon: "🧠"
+      title: "Backend Architecture",
+      description:
+        "Designing robust enterprise REST APIs and database pipelines using Java, Spring Boot, JDBC, and NestJS.",
+      stats: "Scalable Core",
+      icon: "⚙️",
     },
     {
-      title: "My Own Creative Edits",
-      description: "Experimental transitions, 3D overlays, and trendsetting visual effects that push creative bounds.",
-      stats: "Personal Projects",
-      icon: "⚡"
-    }
-  ]
+      title: "Mobile Experiences",
+      description:
+        "Developing cross-platform mobile applications with Flutter and Dart for high-performance iOS and Android apps.",
+      stats: "Flutter Dev",
+      icon: "📱",
+    },
+  ],
 };
 
-// Brand New Leadership Data
+// Leadership & Engagement Data
 export const leadershipList = [
   {
-    title: "IEEE Madhya Pradesh Section (Social Media Team)",
-    description: "Managed and coordinated digital content, driving audience engagement and designing interactive visual campaigns for tech events.",
-    role: "Social Media Coordinator",
-    badge: "Volunteer"
+    title: "DevSpectra — Real-World Application Team",
+    description:
+      "Collaborating with the engineering team at DevSpectra to build responsive web components, integrate REST APIs, and optimize user experience for client-facing software.",
+    role: "Software Developer Intern",
+    badge: "Internship",
   },
   {
-    title: "Team Coordinator – Go-Kart International Racing 2K25",
-    description: "Led multi-disciplinary teams in project management, budget control, and logistics coordination for a high-profile international racing event.",
-    role: "Team Coordinator",
-    badge: "Leadership"
+    title: "Q Spiders Technical Cohort",
+    description:
+      "Participated in intensive technical sessions covering advanced Core Java, OOP hierarchies, database connectivity, Servlets/JSP, and Spring Boot architecture.",
+    role: "Java & Full Stack Trainee",
+    badge: "Training",
   },
   {
-    title: "5-Day MOE IDE Bootcamp, Roorkee",
-    description: "Participated in an intensive Innovation, Design, and Entrepreneurship Bootcamp organized by the Ministry of Education at IIT Roorkee.",
-    role: "Bootcamp Graduate",
-    badge: "Innovation"
+    title: "Agurchand Manmull Jain College — Tech Initiatives",
+    description:
+      "Coordinated academic technical seminars and software practice labs, helping peers debug Java code and implement OOP paradigms.",
+    role: "Student Coordinator",
+    badge: "Academic",
   },
   {
-    title: "Hosted INFORIA Tech Summit Hackathon",
-    description: "Organized and hosted the flagship hackathon, managing registrations, mentoring participant teams, and coordinating judge evaluations.",
-    role: "Hackathon Organizer",
-    badge: "Co-Curricular"
+    title: "Full-Stack Application Development",
+    description:
+      "Engineered end-to-end full stack web platforms, managing front-to-back integration, state flow, and database models.",
+    role: "Lead Developer",
+    badge: "Engineering",
   },
-  {
-    title: "Event Coordinator & Anchoring – INFORIA 2K25",
-    description: "Coordinated technical events and served as the main stage anchor, speaking in front of large crowds and managing the summit flow.",
-    role: "Stage Anchor & Coordinator",
-    badge: "Public Speaking"
-  }
 ];
 
-// Brand New Internships Data
+// Internships & Work Experience Data
 export const internshipsList = [
   {
-    organization: "Netlink, Bhopal",
-    role: "Data Analytics & BI Tools Intern",
-    duration: "June 2025 - August 2025",
-    skills: ["Data Analytics", "Business Intelligence", "Dashboard Design", "Data Modeling"],
-    tech: ["Lumenore", "MySQL", "Excel", "BI Tools"]
+    organization: "A7 Infosoft",
+    role: "Software Developer Intern",
+    duration: "2024 – 2025",
+    skills: [
+      "Full Stack Web Development",
+      "REST API Integration",
+      "State Management",
+      "Responsive UI Design",
+    ],
+    tech: ["React", "Next.js", "TypeScript", "NestJS", "GSAP", "Tailwind CSS"],
   },
   {
-    organization: "Canva",
-    role: "Visual Content Creator & Designer",
-    duration: "May 2024 - June 2024",
-    skills: ["Visual Designing", "Poster Design", "Team Branding", "Asset Creation"],
-    tech: ["Canva Pro", "Figma", "Canva Design Suite"]
+    organization: "Q Spiders, Chennai",
+    role: "Java & Full-Stack Development Trainee",
+    duration: "2024 – Present",
+    skills: [
+      "Core Java & OOPs",
+      "JDBC Connectivity",
+      "Servlets & JSP",
+      "Spring Boot Architecture",
+    ],
+    tech: ["Java", "J2EE", "Servlets", "JDBC", "Hibernate", "Spring Boot", "MySQL"],
   },
   {
-    organization: "CollegeTips.in",
-    role: "Web Development Intern",
-    duration: "1 Month (Offline)",
-    skills: ["Frontend Development", "Responsive Layouts", "API Testing", "Web Performance"],
-    tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
-  }
+    organization: "Spiro Prime Tech",
+    role: "BDE Trainee Developer",
+    duration: "2025 oct – 2026 jun",
+    skills: [
+      "Communication With Clients",
+      "File I/O & Exception Handling",
+      "CRUD Operations",
+      "Real Time Projects",
+      "Database Schemas",
+    ],
+    tech: ["Java", "SQL", "MySQL", "HTML5", "CSS3", "JavaScript"],
+  },
 ];
 
-// Brand New Soft Skills Data
+// Soft Skills Data
 export const softSkillsList = [
-  { name: "Leadership", icon: "👑", desc: "Guiding teams, managing tasks, and driving project completion with shared vision." },
-  { name: "Public Speaking", icon: "🎤", desc: "Confident stage presence, anchoring summits, and delivering articulate technical ideas." },
-  { name: "Team Collaboration", icon: "🤝", desc: "Collaborating across fields, building racing carts, and engineering code in sync." },
-  { name: "Communication", icon: "💬", desc: "Clear, concise, and structured interactions in both business and technical contexts." },
-  { name: "Problem Solving", icon: "🧩", desc: "Breaking down complex engineering tasks into clean, logical, and modular pieces." },
-  { name: "Adaptability", icon: "🌟", desc: "Quick to pick up new frameworks like FastAPI, Spring Boot, or automation tools like n8n." },
-  { name: "Creativity", icon: "🎨", desc: "Blending cinematic aesthetics with software structure to build premium experiences." },
-  { name: "Time Management", icon: "⏰", desc: "Balancing B.Tech studies, event hosting, and developing robust software platforms." }
+  {
+    name: "Communication",
+    icon: "💬",
+    desc: "Fluent in English and Native Tamil. Clear, structured technical and interpersonal communication.",
+  },
+  {
+    name: "Problem Solving",
+    icon: "🧩",
+    desc: "Breaking down complex engineering tasks into clean, logical, and modular pieces.",
+  },
+  {
+    name: "Team Collaboration",
+    icon: "🤝",
+    desc: "Collaborating across cross-functional teams, peer reviews, and engineering workflows.",
+  },
+  {
+    name: "Quick Learning",
+    icon: "🚀",
+    desc: "Rapidly mastering new technologies, frameworks, and modern developer toolchains.",
+  },
+  {
+    name: "Project Management",
+    icon: "📋",
+    desc: "Organizing milestones, version control with Git, and clean documentation.",
+  },
+  {
+    name: "Adaptability",
+    icon: "🌟",
+    desc: "Seamlessly shifting across frontend React/Next.js, backend Java/NestJS, and mobile Flutter.",
+  },
+  {
+    name: "Attention to Detail",
+    icon: "🎯",
+    desc: "Delivering pixel-perfect, responsive UI and clean, robust, and maintainable code.",
+  },
+  {
+    name: "Work Ethic",
+    icon: "⚡",
+    desc: "Dedicated to continuous self-improvement and delivering real-world software value.",
+  },
 ];
 
+// Featured Projects Data
 export const projects = [
   {
     id: "foodmesh",
@@ -247,17 +297,16 @@ export const projects = [
     badge: "🚀 Flagship Project",
     title: "FoodMesh",
     description:
-      "FoodMesh — An enterprise-grade multi-tenant restaurant management and food ordering SaaS platform inspired by UrbanPiper. It enables restaurants to manage multiple outlets, menus, inventory, customers, staff, and orders through a scalable architecture with secure authentication, role-based access control, and real-time operations. Built with React, Next.js, NestJS, PostgreSQL, Redis, Kafka, Elasticsearch, Docker, Kubernetes, and AWS.",
+      "FoodMesh — An enterprise-grade multi-tenant restaurant management and food ordering SaaS platform. Enables restaurants to manage multiple outlets, menus, inventory, customers, staff, and real-time orders through a scalable, secure architecture with role-based access control. Built with React, Next.js, NestJS, TypeScript, PostgreSQL, Redis, Kafka, Elasticsearch, Docker, and AWS.",
     techTags: [
       "React",
       "Next.js",
       "NestJS",
+      "TypeScript",
       "PostgreSQL",
       "Redis",
       "Kafka",
-      "Elasticsearch",
       "Docker",
-      "Kubernetes",
       "AWS",
     ],
     links: {
@@ -267,89 +316,105 @@ export const projects = [
     isFlagship: true,
   },
   {
-    id: "karigar",
+    id: "devspectra-app",
     number: "02",
-    badge: null,
-    title: "Karigar",
+    badge: "🏢 DevSpectra Internship Project",
+    title: "DevSpectra Web Application Platform",
     description:
-      "A platform connecting local skilled workers with customers, featuring real-time search, worker profiles, and booking management with full database integration.",
-    techTags: ["React", "Node.js", "MongoDB", "Express", "REST API"],
+      "A production-ready responsive web application platform developed during the DevSpectra internship. Features modern component architecture, seamless REST API integration, smooth GSAP animations, and robust state management for client-facing features.",
+    techTags: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "NestJS",
+      "GSAP",
+      "Tailwind CSS",
+      "REST API",
+    ],
     links: {
-      github: "https://github.com/mdyusuf0/Karigar",
-      frontendDemo: "https://karigar-frontend.onrender.com",
-      backendApi: "https://karigar-zny2.onrender.com",
+      github: null,
+      demo: null,
     },
     isFlagship: false,
   },
   {
-    id: "sentiment-analysis",
+    id: "student-record-system",
     number: "03",
-    badge: null,
-    title: "AI-Powered Sentiment Analysis",
+    badge: "☕ Academic Practice Project",
+    title: "Java Console-Based Student Record System",
     description:
-      "A full-stack web application that analyzes citizen feedback using Artificial Intelligence to classify sentiments as positive, negative, or neutral. Features a responsive React frontend, a Node.js backend, MongoDB for data storage, and n8n automation for workflow orchestration — enabling real-time insights and efficient feedback management.",
-    techTags: ["React", "Node.js", "MongoDB", "n8n", "AI/ML", "REST API"],
+      "A robust console application built in Core Java that manages student records with complete CRUD operations (adding, viewing, updating, and deleting). Focused on implementing solid Object-Oriented Programming (OOP) principles, structured file handling/IO for persistent storage, and strict input validation.",
+    techTags: [
+      "Java",
+      "OOPs",
+      "File I/O",
+      "Exception Handling",
+      "CLI",
+      "Data Structures",
+    ],
     links: {
-      github: "#", // Update when available
+      github: null,
+      demo: null,
     },
     isFlagship: false,
   },
 ];
 
+// Certifications Data
 export const certificates = {
   featured: [
     {
-      name: "Oracle Cloud Infrastructure 2025",
-      issuer: "Oracle",
-      icon: "☁️",
+      name: "Full-Stack Dev Specialization",
+      issuer: "Full Stack Specialization",
+      icon: "💻",
     },
     {
-      name: "Programming in Java (94%)",
-      issuer: "NPTEL",
+      name: "Core Java & Advanced Java (JDBC, Servlets)",
+      issuer: "Q Spiders, Chennai",
       icon: "☕",
     },
     {
-      name: "C Programming & Assembly Language",
-      issuer: "NPTEL",
-      icon: "⚙️",
+      name: "Spring Boot & Enterprise Architecture",
+      issuer: "Q Spiders, Chennai",
+      icon: "🌱",
     },
     {
-      name: "Technology Job Simulation",
-      issuer: "Deloitte",
-      icon: "💼",
+      name: "Web Application Development with React & Next.js",
+      issuer: "DevSpectra",
+      icon: "⚛️",
     },
     {
-      name: "Career Edge – IT Primer",
-      issuer: "TCS iON",
-      icon: "🎓",
+      name: "Relational Database Management & SQL",
+      issuer: "Database Specialization",
+      icon: "🗄️",
     },
     {
-      name: "Fundamentals of BI & Analytics",
-      issuer: "Lumenore",
-      icon: "📊",
+      name: "Cross-Platform Mobile Development (Flutter)",
+      issuer: "Mobile Dev Specialization",
+      icon: "📱",
     },
   ],
-  viewAllUrl:
-    "https://drive.google.com/file/d/1ObdGWtVSx8SsfR4AcbCySSd9LFXcAs9f/view?usp=sharing",
+  viewAllUrl: "#contact",
 };
 
+// Education Data
 export const education = {
-  degree: "B.Tech – Computer Science & Engineering",
-  institution: "IES College of Technology (RGPV)",
-  cgpa: "8.35",
-  graduation: "2027",
-  twelfth: "12th Science – 81%",
-  tenth: "10th CBSE – 70%",
+  degree: "Bachelor of Computer Science (B.Sc. CS)",
+  institution: "Agurchand Manmull Jain College, Chennai",
+  graduation: "2022 – 2025",
+  additionalTraining: "Q Spiders, Chennai — Core & Advanced Java, Spring Boot",
+  academicProject: "Java Console-Based Student Record System",
 };
 
+// Footer Content Data
 export const footerContent = {
   taglines: [
-    "Software Engineering & Web Dev",
-    "Java · Spring Boot · React",
-    "Full Stack Applications",
+    "Software Developer & Full-Stack Engineer",
+    "React · Next.js · NestJS · TypeScript",
+    "Java · Spring Boot · JDBC · Flutter",
   ],
-  credential: "B.Tech CSE · CGPA 8.35",
-  copyright: `© ${new Date().getFullYear()} Md Yusuf | Built with React`,
+  credential: "B.Sc. Computer Science · Agurchand Manmull Jain College, Chennai",
+  copyright: `© ${new Date().getFullYear()} Santhosh U | Built with React`,
 };
 
 // EmailJS Configuration

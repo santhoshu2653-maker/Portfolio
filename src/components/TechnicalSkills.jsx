@@ -5,10 +5,12 @@ const SkillProgress = ({ name, level }) => (
     <div className="flex justify-between items-center mb-1">
       <span className="text-white text-sm font-semibold tracking-wide">{name}</span>
       <span className="text-[#89F336]text-xs font-bold font-mono">{level}%</span>
+      <span className="text-[#89F336] text-xs font-bold font-mono">{level}%</span>
     </div>
     <div className="w-full h-1.5 bg-white/5 rounded-full overflow-hidden border border-white/5">
       <div 
         className="h-full bg-gradient-to-r from-[#89F336]/70 to-[#89F336]rounded-full transition-all duration-1000 ease-out"
+        className="h-full bg-gradient-to-r from-[#89F336]/70 to-[#89F336] rounded-full transition-all duration-1000 ease-out"
         style={{ width: `${level}%` }}
       />
     </div>
@@ -37,6 +39,7 @@ const TechnicalSkills = () => {
     <section id="skills" className="bg-[#0a0a0a] pt-24 pb-28 px-6 md:px-12 w-full relative overflow-hidden font-sans">
       {/* Background visual elements */}
       <div className="absolute top-1/4 left-10 w-96 h-96bg-[#89F336]/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/4 left-10 w-96 h-96 bg-[#89F336]/10 rounded-full blur-[120px] pointer-events-none" />
       <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-[#89F336]/10 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-6xl mx-auto relative z-10">

@@ -22,7 +22,7 @@ export const personalInfo = {
 };
 
 export const socialLinks = {
-  github: "https://github.com/santhosh-u",
+  github: "https://github.com/santhoshu2653-maker",
   linkedin: "https://www.linkedin.com/in/santhosh-u-403882313?u",
   instagram: "https://www.instagram.com/santhosh_u__2653?igsi=aWl4cTcwZ2pvam5p",
 };
@@ -292,25 +292,21 @@ export const softSkillsList = [
 // Featured Projects Data
 export const projects = [
   {
-    id: "foodmesh",
+    id: "student-management-system",
     number: "01",
     badge: "🚀 Flagship Project",
-    title: "FoodMesh",
+    title: "Student Management System",
     description:
-      "FoodMesh — An enterprise-grade multi-tenant restaurant management and food ordering SaaS platform. Enables restaurants to manage multiple outlets, menus, inventory, customers, staff, and real-time orders through a scalable, secure architecture with role-based access control. Built with React, Next.js, NestJS, TypeScript, PostgreSQL, Redis, Kafka, Elasticsearch, Docker, and AWS.",
+      "My project was a Student Management System developed using Java, JDBC, and MySQL. The purpose of the project was to manage student information efficiently. The system allows users to add, update, view, and delete student records using CRUD operations. Java was used for the application logic, JDBC was used to connect the application with the database, and MySQL was used to store student information. This project helped me understand database connectivity, SQL queries, and record management.",
     techTags: [
-      "React",
-      "Next.js",
-      "NestJS",
-      "TypeScript",
-      "PostgreSQL",
-      "Redis",
-      "Kafka",
-      "Docker",
-      "AWS",
+      "Java",
+      "JDBC",
+      "MySQL",
+      "CRUD Operations",
+      "SQL",
     ],
     links: {
-      github: "https://github.com/ersamirsingh/UrbanPiper",
+      github: null,
       demo: null,
     },
     isFlagship: true,

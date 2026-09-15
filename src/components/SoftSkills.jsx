@@ -7,7 +7,7 @@ const SoftSkillCard = ({ skill, index }) => (
   className="bg-[#f8f8f8] border border-gray-200 rounded-3xl p-6 hover:scale-[1.03] hover:bg-white hover:border-gray-300 hover:shadow-[0_20px_45px_rgba(0,0,0,0.08)] transition-all duration-500 group flex flex-col items-center text-center justify-between min-h-[220px]"
   >
     <div className="flex flex-col items-center">
-      <div className="text-4xl mb-4 p-3 bg-gray-100 rounded-2xl group-hover:bg-[#ff2a2a]/10 group-hover:scale-110 transition-all duration-300">
+      <div className="text-4xl mb-4 p-3 bg-gray-100 rounded-2xl group-hover:bg-[#89F336]/20 group-hover:scale-110 transition-all duration-300">
         {skill.icon}
       </div>
 
